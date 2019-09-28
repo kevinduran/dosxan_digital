@@ -44,4 +44,21 @@ img {
 /*NAVIGATION********************************/
 
 
+.site_nav_button span{
+    display: block;
+    border: 1px solid red;
+    height: 5px;
+    width: 50px;
+    margin-top: 10px;
+}
+
 /*NAVIGATION********************************/
+
+/*CLIENTS********************************/
+.client{
+    height: 10px;
+    width: 10px;
+    border: 1px solid red;
+    
+}
+/*CLIENTS********************************/
