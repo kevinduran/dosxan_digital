@@ -13,7 +13,6 @@ html {
 }
 
 
-
 body,
 h1,
 h2,
@@ -47,8 +46,18 @@ img {
     justify-content: space-between;
     align-content: center;
     align-items: center;
+    height: 10vh;
+    border: 1px solid red;
+    position: relative;
 }
-
+.site_nav_button{
+    position: relative;
+    margin-right: 25px; 
+    top: -6%;
+}
+.site_logo{
+    margin: 25px;
+}
 .site_nav_button span{
     display: block;
     border: 1px solid red;
