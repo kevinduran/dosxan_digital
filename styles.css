@@ -42,14 +42,13 @@ img {
 /*RESET********************************/
 
 /*NAVIGATION********************************/
-.site_nav {
-    border: 1px solid red;
-}
 
-.site_nav--line {
-    height: 100px;
-    width: 15px;
-    background-color: red;
+
+.site_nav_button span{
+    display: block;
+    background: red;
+    height: 5px;
+    width: 100px;
 }
 
 /*NAVIGATION********************************/
