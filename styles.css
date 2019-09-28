@@ -42,7 +42,12 @@ img {
 /*RESET********************************/
 
 /*NAVIGATION********************************/
-
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
 
 .site_nav_button span{
     display: block;
