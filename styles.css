@@ -100,11 +100,18 @@ img {
 .intro--link {
     padding: 0 35px;
     cursor: pointer;
-    border: 1px solid;
+
 }
 
 .intro--link a {
     text-decoration: none;
+    color: #900000;
+    font-size: 1.3em
+}
+.intro--link i {
+    color: #900000;
+    font-size: 1.3em;
+    padding-right: 15px;
 }
 
 
