@@ -14,6 +14,7 @@ html {
 
 body {
     background-color: #F0F0F0
+    
 }
 
 
@@ -81,8 +82,8 @@ img {
     padding: 35px;
 }
 
-.intro--header-word-blue {
-    color: red;
+.intro--header-word-color {
+    color: #900000;
 }
 
 .intro--desc {
