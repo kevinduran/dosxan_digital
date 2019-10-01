@@ -50,7 +50,7 @@ img {
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    height: 10vh;
+    height: 15vh;
     position: relative;
 }
 
@@ -84,6 +84,25 @@ img {
 .intro--header-word-blue {
     color: red;
 }
+
+.intro--desc {
+    padding: 35px;
+    line-height: 2em;
+    font-size: 1.4em;
+    color: #686868;
+}
+
+.intro--link {
+    padding: 0 35px;
+    cursor: pointer;
+    border: 1px solid;
+}
+
+.intro--link a {
+    text-decoration: none;
+}
+
+
 
 /*INTRO********************************/
 
