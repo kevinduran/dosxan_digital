@@ -13,8 +13,8 @@ html {
 }
 
 body {
-    background-color: #F0F0F0
-    
+    background-color: #F0F0F0;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -53,12 +53,14 @@ img {
     align-items: center;
     height: 15vh;
     position: relative;
+    
 }
 
 .site_nav_button {
     position: relative;
     padding: 0 25px;
     top: -6%;
+    cursor: pointer;
 }
 
 .site_logo {
@@ -79,7 +81,9 @@ img {
 /*INTRO********************************/
 .intro--header {
     font-size: 3em;
-    padding: 35px;
+    padding: 85px 35px 35px 35px;
+    line-height: 1.4em;
+    font-weight: bolder;
 }
 
 .intro--header-word-color {
@@ -88,9 +92,9 @@ img {
 
 .intro--desc {
     padding: 35px;
-    line-height: 2em;
-    font-size: 1.4em;
-    color: #686868;
+    line-height: 2.1em;
+    font-size: 1.2em;
+    color: 	#989898;
 }
 
 .intro--link {
