@@ -12,6 +12,9 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    background-color: #F0F0F0
+}
 
 
 body,
@@ -48,25 +51,25 @@ img {
     align-content: center;
     align-items: center;
     height: 10vh;
-    border: 1px solid red;
     position: relative;
 }
 
 .site_nav_button {
     position: relative;
-    padding:0 25px;
+    padding: 0 25px;
     top: -6%;
 }
 
 .site_logo {
     padding: 0 25px;
+    font-size: 1.7em;
 }
 
 .site_nav_button span {
     display: block;
-    border: 1px solid red;
-    height: 5px;
-    width: 50px;
+    background-color: black;
+    height: 2px;
+    width: 42px;
     margin-top: 10px;
 }
 
@@ -75,11 +78,13 @@ img {
 /*INTRO********************************/
 .intro--header {
     font-size: 3em;
-    padding: 0 35px;
+    padding: 35px;
 }
-.intro--header-word-blue{
-    color:red;
+
+.intro--header-word-blue {
+    color: red;
 }
+
 /*INTRO********************************/
 
 /*CLIENTS********************************/
