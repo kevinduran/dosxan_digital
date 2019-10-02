@@ -128,16 +128,23 @@ img {
     padding: 35px;
     display: grid;
     grid-template-columns: 150px 150px;
-    grid-gap: 10px;
+    grid-gap: 0;
+    justify-content: center;
 }
+
+.clients-container--row_one{
+    border-right: 1px solid #900000
+}
+
 
 .client {
-    padding: 35px;
-    border: 1px solid #900000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 0.5px solid #900000;
+    height: 20vh;
 }
 
-.client img {
-    width: 500px;
-}
 
 /*CLIENTS********************************/
