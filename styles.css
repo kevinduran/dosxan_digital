@@ -127,15 +127,17 @@ img {
 .our_clients-container {
     padding: 35px;
     display: grid;
-    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: 150px 150px;
     grid-gap: 10px;
 }
 
 .client {
-    height: 40px;
-    width: 40px;
     padding: 35px;
     border: 1px solid #900000;
+}
+
+.client img {
+    width: 500px;
 }
 
 /*CLIENTS********************************/
