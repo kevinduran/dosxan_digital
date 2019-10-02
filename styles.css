@@ -1,3 +1,7 @@
+*{
+    border: #900000 solid 1px;
+}
+
 /*RESET********************************/
 html {
     -webkit-box-sizing: border-box;
@@ -32,7 +36,9 @@ ul {
     padding: 0;
     font-weight: normal;
 }
-
+a{
+    text-decoration: none;
+}
 ol,
 ul {
     list-style: none;
@@ -160,10 +166,18 @@ img {
 }
 .work_container-work{
     margin: 105px 0;
+    width: 100%;
 }
 .work_container h4{
     font-size: 1.3em;
     padding: 105px 35px 35px 0;
+}
+.work--link{
+    font-size: 1.3em;
+    color: #900000;
+}
+.work--link a{
+    color: #900000;
 }
 
 /*WORK********************************/
