@@ -192,6 +192,7 @@ img {
     border-radius: 5%;
     animation-duration: 1.4s;
     animation-name: fill-up;
+    box-shadow: 0 1em 1.5em 0.25em rgba(0,0,0,0.3);
 }
 
 @keyframes fill-up {
@@ -231,6 +232,6 @@ img {
 
 @media only screen and (min-width: 550px) {
     .client-image{
-        max-width: 150px;;
+        max-width: 150px;
     }
 }
