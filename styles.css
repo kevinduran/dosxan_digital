@@ -174,23 +174,26 @@ img {
 
 .work_container-work {
     margin-bottom: 5vh;
+    background-color: #900000;
+    padding: 10px;
+    border-radius: 5%;
 
 }
 
 .work_container h4 {
     font-size: 1.3em;
     padding: 35px 35px 35px 0;
-    color: #900000;
+    color: #F0F0F0;
 }
 
 .work--link {
     font-size: 1.3em;
-    color: #900000;
+    color: #F0F0F0;
     padding: 35px 0;
 }
 
 .work--link a {
-    color: #900000;
+    color: #F0F0F0;
 
 }
 
