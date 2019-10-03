@@ -61,7 +61,23 @@ img {
     align-items: center;
     height: 15vh;
     position: relative;
+    animation-name: peekaboo;
+    animation-duration: 1s;
+    animation-delay: 0.7s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
 
+@keyframes peekaboo {
+    0% {
+        opacity: 0;
+        top: 10vh;
+    }
+
+    100% {
+        opacity: 1;
+        top: 0;
+    }
 }
 
 .site_nav_button {
@@ -87,6 +103,15 @@ img {
 /*NAVIGATION********************************/
 
 /*INTRO********************************/
+.intro { 
+    position: relative;
+    animation-name: peekaboo;
+    animation-duration: 1s;
+    animation-delay: 1.2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
 .intro--header {
     font-size: 3em;
     padding: 85px 35px 35px 35px;
@@ -157,12 +182,12 @@ img {
     align-items: center;
     padding: 10px;
     border-bottom: 0.5px solid #900000;
-    height:20vh;
-    overflow:auto;
+    height: 20vh;
+    overflow: auto;
     width: 30vw;
 }
 
-.client-image{
+.client-image {
     width: auto;
     height: auto;
     max-width: 100%;
@@ -190,7 +215,7 @@ img {
     background-color: #900000;
     padding: 10px;
     border-radius: 5%;
-    box-shadow: 0 1em 1.5em 0.25em rgba(0,0,0,0.3);
+    box-shadow: 0 1em 1.5em 0.25em rgba(0, 0, 0, 0.3);
 }
 
 
@@ -215,7 +240,7 @@ img {
 
 
 @media only screen and (min-width: 550px) {
-    .client-image{
+    .client-image {
         max-width: 150px;
     }
 }
