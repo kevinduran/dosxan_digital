@@ -1,0 +1,1 @@
+ScrollReveal().reveal('.reveal_me', { delay: 500 });
