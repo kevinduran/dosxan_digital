@@ -281,7 +281,8 @@ img {
     display: flex;
     margin-bottom: 2em;
 }
-.wwdo_item_icon{
+
+.wwdo_item_icon {
     color: #900000;
     padding-right: 35px;
     font-size: 2em;
@@ -293,12 +294,90 @@ img {
     color: #989898;
 }
 
-.wwdo_container_img{
+.wwdo_container_img {
     padding-bottom: 35px;
-    
+
 }
 
 /*WWD********************************/
+
+
+/*CONNECT********************************/
+.connect {
+    padding: 35px;
+}
+
+.connect_header--title {
+    font-size: 3em;
+    padding: 85px 0 0;
+    line-height: 1.4em;
+    font-weight: bolder;
+
+}
+
+
+
+.connect_header--link i {
+    color: #900000;
+    font-size: 3em;
+    padding: 35px 0 85px 0;
+}
+
+
+.connect_location {
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+.connect_location--menu{
+    display: flex;
+    flex-direction: column;
+}
+.connect_location--menu p{
+    padding-bottom: 35px;
+    font-size: 1.3em;
+}
+
+
+
+.connect_location--office{
+    display: flex;
+    flex-direction: column;
+}
+
+.connect_location--office p{
+    padding-bottom: 35px;
+    font-size: 1.3em;
+}
+
+.connect_menu--item{
+    padding: 35px 0 0 0;
+    color: #989898;
+}
+
+.connect_location--office--item{
+    padding: 35px 0 0 0;
+    color: #989898;
+}
+
+.connect_footer{
+    padding: 85px 0 35px 0;
+}
+/*CONNECT********************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (min-width: 550px) {
