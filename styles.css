@@ -112,6 +112,34 @@ img {
     animation-fill-mode: forwards;
 }
 
+.sticky_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sticky_logo h4{
+    position: fixed;
+    margin-top: 250px;
+    color: #FFFFFF;
+    z-index: -1;
+    font-size: 2.2em;
+    opacity: 0.9;
+    animation-name: color_fill;
+    animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color_fill {
+    0% {
+        color:#900000;
+    }
+
+    100% {
+        color:#fff;
+    }
+}
+
+
 .intro--header {
     font-size: 3em;
     padding: 85px 35px 35px 35px;
