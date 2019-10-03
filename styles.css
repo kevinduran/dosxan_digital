@@ -103,7 +103,7 @@ img {
 /*NAVIGATION********************************/
 
 /*INTRO********************************/
-.intro { 
+.intro {
     position: relative;
     animation-name: peekaboo;
     animation-duration: 1s;
@@ -112,12 +112,13 @@ img {
     animation-fill-mode: forwards;
 }
 
-.sticky_logo{
+.sticky_logo {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.sticky_logo h4{
+
+.sticky_logo h4 {
     position: fixed;
     margin-top: 250px;
     color: #FFFFFF;
@@ -131,11 +132,11 @@ img {
 
 @keyframes color_fill {
     0% {
-        color:#900000;
+        color: #900000;
     }
 
     100% {
-        color:#fff;
+        color: #fff;
     }
 }
 
@@ -265,6 +266,34 @@ img {
 }
 
 /*WORK********************************/
+
+/*WWD********************************/
+.wwdo_container {
+    padding: 35px;
+}
+
+.wwdo_container_title {
+    font-size: 1.3em;
+    padding: 105px 0;
+}
+
+.wwdo_container_item {
+    display: flex;
+    margin-bottom: 2em;
+}
+.wwdo_item_icon{
+    color: #900000;
+    padding-right: 35px;
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.wwdo_item_desc {
+    font-size: 1.2em;
+    color: #989898;
+}
+
+/*WWD********************************/
 
 
 @media only screen and (min-width: 550px) {
