@@ -124,7 +124,12 @@ img {
     font-family: 'Unica One', cursive;
 }
 
-.site_logo.open {
+
+.site_logo a {
+    color: black;
+}
+
+.site_logo a.open{
     color: white;
 }
 

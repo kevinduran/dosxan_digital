@@ -7,6 +7,6 @@ ScrollReveal().reveal('.reveal_me', {
 $('#toggle').click(function () {
     $(this).toggleClass('active');
     $('#overlay').toggleClass('open');
-    $('.site_logo').toggleClass('open');
+    $('.site_logo_a').toggleClass('open');
 });
 //End of Navigarion Overlay
