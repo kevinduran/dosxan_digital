@@ -94,7 +94,7 @@ img {
 
 .btn.active .bottom {
     -webkit-transform: translateY(-11px) translateX(0) rotate(-45deg);
-    transform: translateY(-11px) translateX(0) rotate(-45deg);
+    transform: translateY(-17px) translateX(0) rotate(-45deg);
     background: white;
 }
 
@@ -122,14 +122,15 @@ img {
     font-size: 1.7em;
     z-index: 20;
 }
-.site_logo.open{
-    color:white;
+
+.site_logo.open {
+    color: white;
 }
 
 .site_nav_button span {
     display: block;
     background-color: black;
-    height: 2px;
+    height: 4px;
     width: 39px;
     margin-top: 10px;
     -webkit-transition: all .35s ease;
