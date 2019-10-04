@@ -119,8 +119,9 @@ img {
 
 .site_logo {
     padding: 0 25px;
-    font-size: 1.7em;
+    font-size: 2em;
     z-index: 20;
+    font-family: 'Unica One', cursive;
 }
 
 .site_logo.open {
@@ -284,6 +285,8 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Unica One', cursive;
+    font-size: 1.4em;
 }
 
 .sticky_logo h4 {
