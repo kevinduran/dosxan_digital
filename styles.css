@@ -129,7 +129,7 @@ img {
     color: black;
 }
 
-.site_logo a.open{
+.site_logo a.open {
     color: white;
 }
 
@@ -193,7 +193,7 @@ img {
 .overlay .overlay_nav {
     position: relative;
     height: 70%;
-    top: 50%;
+    top: 60%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     font-size: 50px;
