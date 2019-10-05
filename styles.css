@@ -328,6 +328,10 @@ img {
     color: #900000;
 }
 
+.intro--header-word-color-second {
+    color: black;
+}
+
 .intro--desc {
     padding: 35px;
     line-height: 2.1em;
@@ -530,6 +534,9 @@ img {
 
 .connect_menu--item {
     padding: 35px 0 0 0;
+}
+
+.connect_menu--item a {
     color: #989898;
 }
 
