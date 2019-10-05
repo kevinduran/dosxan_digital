@@ -60,13 +60,24 @@ img {
     align-content: center;
     align-items: center;
     height: 15vh;
-    position: relative;
+    position: sticky;
     animation-name: peekaboo;
     animation-duration: 1s;
     animation-delay: 0.7s;
     opacity: 0;
     animation-fill-mode: forwards;
     z-index: 15;
+}
+
+.nav.scrolled {
+    background-color: #900000 !important;
+    opacity: 0.7;
+    transition: background-color 200ms linear;
+}
+
+.navigation_item.scrolled {
+    color: white !important;
+    transition: color 1s all;
 }
 
 @keyframes peekaboo {
@@ -116,6 +127,13 @@ img {
     z-index: 20;
 }
 
+.navigation_item.scrolled {
+    color: white;
+}
+
+.navigation_item_two.scrolled {
+    background-color: white;
+}
 
 .site_logo {
     padding: 0 25px;
@@ -147,7 +165,7 @@ img {
 
 /*OVERLAY********************************/
 .overlay {
-    background-color: #580000;
+    background-color: #900000;
     position: absolute;
     top: 0;
     left: 0;
