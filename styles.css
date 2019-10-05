@@ -70,7 +70,7 @@ img {
 }
 
 .nav.scrolled {
-    background-color: #900000 !important;
+    background-color:rgba(144,0,0,0.9);
     opacity: 0.7;
     transition: background-color 200ms linear;
 }
