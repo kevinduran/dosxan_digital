@@ -1,5 +1,5 @@
 * {
-    /* border: #900000 solid 1px; */
+    border: #900000 solid 1px;
 }
 
 /*RESET********************************/
@@ -52,6 +52,8 @@ img {
 }
 
 /*RESET********************************/
+
+
 
 /*NAVIGATION********************************/
 .nav {
@@ -360,7 +362,6 @@ img {
 .intro--link {
     padding: 0 35px;
     cursor: pointer;
-
 }
 
 .intro--link a {
