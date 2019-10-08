@@ -1,5 +1,5 @@
 * {
-    border: #900000 solid 1px;
+    /* border: #900000 solid 1px; */
 }
 
 /*RESET********************************/
@@ -297,12 +297,6 @@ img {
 
 /*INTRO********************************/
 .intro {
-    position: relative;
-    animation-name: peekaboo;
-    animation-duration: 1s;
-    animation-delay: 1.2s;
-    opacity: 0;
-    animation-fill-mode: forwards;
     z-index: -1;
 }
 
@@ -499,7 +493,22 @@ img {
 }
 
 /*WWD********************************/
-
+.services_header{
+    position: relative;
+    animation-name: peekaboo;
+    animation-duration: 1s;
+    animation-delay: 1.2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+.services_desc{
+    position: relative;
+    animation-name: peekaboo;
+    animation-duration: 1s;
+    animation-delay: 1.2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
 
 /*CONNECT********************************/
 .connect {
