@@ -647,6 +647,10 @@ input {
     border-bottom: 2px solid #d5d5d5;
     line-height: 46px;
     width: 100%;
+    cursor: text;
+    font-size: 0.9em;
+    padding: 35px 0 15px 15px;
+    transition: 0.5s ease all;
 }
 
 /*CONNECT********************************/
