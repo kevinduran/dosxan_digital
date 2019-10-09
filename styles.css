@@ -668,9 +668,11 @@ input {
     padding: 35px 0 15px 15px;
     transition: 0.5s ease all;
 }
-input:focus{
+
+input:focus {
     outline: none;
 }
+
 /*CONNECT********************************/
 
 
@@ -690,5 +692,48 @@ input:focus{
 @media only screen and (min-width: 550px) {
     .client-image {
         max-width: 150px;
+    }
+}
+
+@media only screen and (min-width:700px) {
+    .nav {
+        padding: 35px;
+    }
+
+    .intro {
+        padding: 35px;
+    }
+
+    .our_clients {
+        padding: 35px;
+    }
+
+    .work {
+        padding: 35px;
+    }
+
+    .services {
+        padding: 35px;
+    }
+
+    .wwdo {
+        padding: 35px;
+    }
+
+    .connect {
+        padding: 35px;
+    }
+
+
+
+    .intro--header {
+        font-size: 3.5em;
+        transition: 1s ease all;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .intro {
+        display: flex;
     }
 }
