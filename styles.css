@@ -617,6 +617,12 @@ img {
     font-size: 1.3em;
 }
 
+.contact_form-submit button{
+    padding: 30px 35px;
+    font-size: 1.3em;
+    border: #900000 1px solid;
+}
+
 /*CONNECT********************************/
 
 
