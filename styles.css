@@ -641,6 +641,14 @@ img {
     transition: 1s all ease;
 }
 
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #d5d5d5;
+    line-height: 46px;
+    width: 100%;
+}
+
 /*CONNECT********************************/
 
 
