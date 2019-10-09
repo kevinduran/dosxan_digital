@@ -617,6 +617,16 @@ img {
     font-size: 1.3em;
 }
 
+
+.contact_form {
+    position: relative;
+    animation-name: peekaboo;
+    animation-duration: 1s;
+    animation-delay: 1.3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
 .contact_form-submit {
     padding: 35px;
     display: flex;
