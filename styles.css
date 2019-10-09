@@ -611,16 +611,34 @@ img {
     line-height: 2em;
 }
 
-.contact_form-item{
+.contact_form-item {
     padding: 35px;
     letter-spacing: 0.05em;
     font-size: 1.3em;
 }
 
-.contact_form-submit button{
-    padding: 30px 35px;
-    font-size: 1.3em;
-    border: #900000 1px solid;
+.contact_form-submit {
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_form-submit button {
+    border-radius: 5%;
+    padding: 20px 65px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #F0F0F0;
+    background-color: #900000;
+    box-shadow: 0 0.5em 0.5em 0.25em rgba(0, 0, 0, 0.1)
+}
+
+
+.contact_form-submit button:hover {
+    background-color: #D00000;
+    transition: 1s all ease;
 }
 
 /*CONNECT********************************/
