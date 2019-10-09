@@ -356,6 +356,12 @@ img {
 .intro--link {
     padding: 0 35px;
     cursor: pointer;
+    position: relative;
+    animation-name: peekaboo;
+    animation-duration: 1s;
+    animation-delay: 1.3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
 }
 
 .intro--link a {
