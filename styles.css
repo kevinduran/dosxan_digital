@@ -611,6 +611,12 @@ img {
     line-height: 2em;
 }
 
+.contact_form-item{
+    padding: 35px;
+    letter-spacing: 0.05em;
+    font-size: 1.3em;
+}
+
 /*CONNECT********************************/
 
 
