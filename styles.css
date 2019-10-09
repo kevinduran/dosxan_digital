@@ -528,7 +528,7 @@ img {
 
 .smol_pp {
     border-bottom: 1px solid #B0B0B0;
-    padding: 25px 0 35px 0;
+    padding: 25px 15px 35px 15px;
     line-height: 1.8em;
     font-size: 1.2em;
     color: #989898;
