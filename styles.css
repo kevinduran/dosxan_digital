@@ -376,11 +376,11 @@ img {
 /*INTRO********************************/
 
 /*ABOUT********************************/
-.img_container{
+.img_container {
     padding: 35px;
 }
 
-.about_img{
+.about_img {
     padding: 1.2em 0;
 }
 
@@ -534,6 +534,7 @@ img {
     color: #989898;
     margin: 10px 0;
 }
+
 .black {
     color: black;
 }
