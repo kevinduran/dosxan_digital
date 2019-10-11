@@ -721,7 +721,7 @@ input:focus {
 
 
     .intro--header {
-        font-size: 3.5em;
+        font-size: 3.7em;
         transition: 1s ease all;
     }
 }
@@ -732,6 +732,7 @@ input:focus {
     }
     .btn{
         padding: 90px;
+        display: none;
     }
     
     
