@@ -768,6 +768,25 @@ input:focus {
         box-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.3);
     }
 
+    .social_sticky {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 83%;
+        left: 3%;
+    }
+
+    .address_sticky {
+        position: fixed;
+        top: 70%;
+        transform: rotate(-90deg);
+        left: -1.6%;
+    }
+
+    .social_sticky h4 {
+        transform: rotate(45deg);
+    }
+
 
     .intro {
         display: flex;
