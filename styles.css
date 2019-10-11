@@ -53,7 +53,9 @@ img {
 
 /*RESET********************************/
 
-
+.site {
+    position: relative;
+}
 
 /*NAVIGATION********************************/
 .nav {
@@ -753,8 +755,17 @@ input:focus {
         color: white;
     }
 
-    .email_sticky{
+    .email_sticky {
         background-color: #900000;
+        position: fixed;
+        color: #F0FFF0;
+        top: 83%;
+        left: 90%;
+        z-index: 1000;
+        padding: 15px;
+        font-size: 2.3em;
+        border-radius: 6%;
+        box-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.3);
     }
 
 
