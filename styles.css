@@ -747,7 +747,10 @@ input:focus {
     .site_nav_item a {
         color: black;
         padding: 0 35px;
-        ;
+    }
+
+    .site_nav_item a.scrolled {
+        color: white;
     }
 
 
