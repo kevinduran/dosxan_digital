@@ -753,6 +753,10 @@ input:focus {
         color: white;
     }
 
+    .email_sticky{
+        background-color: #900000;
+    }
+
 
     .intro {
         display: flex;
