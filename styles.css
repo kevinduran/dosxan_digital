@@ -760,7 +760,7 @@ input:focus {
         position: fixed;
         color: #F0FFF0;
         top: 83%;
-        left: 90%;
+        left: 93%;
         z-index: 1000;
         padding: 15px;
         font-size: 2.3em;
@@ -808,6 +808,7 @@ input:focus {
 
     .intro--header {
         flex: 2;
-        padding-top: 0;
+        padding-top: 0 0 0 70px;
+        font-size: 3.9em;
     }
 }
