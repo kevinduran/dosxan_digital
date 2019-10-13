@@ -751,6 +751,10 @@ input:focus {
 }
 
 @media only screen and (min-width: 1100px) {
+
+    .site{
+        padding: 0 70px;
+    }
     .site_logo {
         padding: 35px;
     }
