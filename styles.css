@@ -460,9 +460,12 @@ img {
     font-size: 1.3em;
     padding: 105px 35px 35px;
 }
-.img_desc{
-    display:none;
+
+
+.img_desc {
+    display: none;
 }
+
 .work_container-work {
     margin-bottom: 5vh;
     background-color: #900000;
@@ -473,15 +476,17 @@ img {
 
 
 .work_container h4 {
-    font-size: 1.3em;
+    font-size: 2.5em;
+    text-align: center;
     padding: 35px 35px 35px 0;
     color: #F0F0F0;
 }
 
 .work--link {
-    font-size: 1.3em;
+    font-size: 1.7em;
     color: #F0F0F0;
     padding: 35px 0;
+    text-align: center;
 }
 
 .work--link a {
