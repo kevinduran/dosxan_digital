@@ -467,10 +467,12 @@ img {
 }
 
 .work_container-work {
+    
     margin-bottom: 5vh;
     background-color: #900000;
     padding: 10px;
-    border-radius: 5%;
+    border-radius: 10%;
+    max-width: 1000px;
     box-shadow: 0 1em 1.5em 0.25em rgba(0, 0, 0, 0.3);
 }
 
@@ -840,7 +842,9 @@ input:focus {
         letter-spacing: 2px;
     }
 
-    .intro {
+
+    
+    .index_intro {
         display: flex;
         padding: 90px;
     }
