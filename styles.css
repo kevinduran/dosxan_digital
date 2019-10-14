@@ -371,7 +371,7 @@ img {
 }
 
 .intro--link {
-    padding-top: 35px;
+    padding: 35px;
 
 }
 
@@ -467,8 +467,9 @@ img {
 }
 
 .work_container-work {
-    
-    margin-bottom: 5vh;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
     background-color: #900000;
     padding: 10px;
     border-radius: 10%;
@@ -479,8 +480,7 @@ img {
 
 .work_container h4 {
     font-size: 2.5em;
-    text-align: center;
-    padding: 35px 35px 35px 0;
+    padding: 35px 0;
     color: #F0F0F0;
 }
 
