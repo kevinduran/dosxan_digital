@@ -358,6 +358,9 @@ img {
 .intro--header-word-color {
     color: #900000;
 }
+.intro--header-word-color a {
+    color: #900000;
+}
 
 .intro--header-word-color-second {
     color: black;
