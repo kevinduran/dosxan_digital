@@ -843,7 +843,7 @@ input:focus {
     }
 
 
-    
+
     .index_intro {
         display: flex;
         padding: 90px;
@@ -880,5 +880,40 @@ input:focus {
         display: flex;
         justify-content: space-evenly
     }
-}
+
+    .services {
+        display: flex;
+    }
+
+    .services_desc {
+        flex: 2;
+
+    }
+
+    .services_header {
+        flex: 2;
+    }
+
+    .wwdo_container {
+        margin-top: 0;
+    }
+    .wwdo_container_title{
+       padding: 0;
+    }
+
+    .wwdo_item_desc {
+        font-size: 2em;
+    }
+
+    .wwdo_item_icon {
+        font-size: 2em;
+        padding-right: 50px;
+    }
+
+    .wwdo_container_item {
+        margin: 3em 0;
+    }
+
+
+
 }
