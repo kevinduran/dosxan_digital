@@ -898,7 +898,7 @@ input:focus {
         margin-top: 0;
     }
     .wwdo_container_title{
-       padding: 0;
+       padding: 0 0 50px 0;
     }
 
     .wwdo_item_desc {
