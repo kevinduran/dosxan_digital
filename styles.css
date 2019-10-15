@@ -434,7 +434,7 @@ img {
     padding: 10px;
     border-bottom: 0.5px solid #900000;
     height: 20vh;
-    overflow: auto;
+    overflow: hidden;
     width: 30vw;
 }
 
@@ -442,6 +442,7 @@ img {
     width: auto;
     height: auto;
     max-width: 100%;
+
 }
 
 .client:nth-last-child(1) {
@@ -897,8 +898,9 @@ input:focus {
     .wwdo_container {
         margin-top: 0;
     }
-    .wwdo_container_title{
-       padding: 0 0 50px 0;
+
+    .wwdo_container_title {
+        padding: 0 0 50px 0;
     }
 
     .wwdo_item_desc {
