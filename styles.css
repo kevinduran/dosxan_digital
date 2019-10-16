@@ -867,7 +867,10 @@ input:focus {
         position: relative;
         top: 1%;
     }
+    .about_header{
+        display: flex;
 
+    }
     .img_size {
         width: 450px;
         flex: 2;
