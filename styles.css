@@ -509,6 +509,8 @@ img {
 .wwdo_container {
     padding: 35px;
     margin-top: 3em;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .wwdo_container_title {
@@ -822,6 +824,7 @@ input:focus {
         flex-direction: column;
         position: fixed;
         left: 3%;
+        z-index: -1;
         height: 100%;
         animation-name: peekaboo;
         animation-duration: 1s;
@@ -908,6 +911,10 @@ input:focus {
         flex: 2;
     }
 
+    .wwdo {
+        padding: 95px;
+    }
+
     .wwdo_container {
         margin-top: 0;
     }
@@ -938,6 +945,7 @@ input:focus {
         animation-fill-mode: forwards;
 
     }
+  
 
 
 
