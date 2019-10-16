@@ -399,10 +399,12 @@ img {
 /*ABOUT********************************/
 .img_container {
     padding: 35px;
+    text-align: center;
 }
 
 .about_img {
     padding: 1.2em 0;
+    max-width: 800px;
 }
 
 /*ABOUT********************************/
@@ -867,10 +869,12 @@ input:focus {
         position: relative;
         top: 1%;
     }
-    .about_header{
+
+    .about_header {
         display: flex;
 
     }
+
     .img_size {
         width: 450px;
         flex: 2;
@@ -924,6 +928,17 @@ input:focus {
     .wwdo_container_item {
         margin: 3em 0;
     }
+
+    .img_container {
+        opacity: 0;
+        animation-name: peekaboo;
+        animation-duration: 1s;
+        animation-delay: 1.7s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+
+    }
+
 
 
 
