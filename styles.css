@@ -238,7 +238,8 @@ img {
     font-family: 'Vollkorn', serif;
     font-weight: 400;
 }
-.overlay_nav-num{
+
+.overlay_nav-num {
     padding: 0 40px;
 }
 
@@ -266,6 +267,7 @@ img {
     color: #F0FFF0;
     text-decoration: none;
     overflow: hidden;
+    font-family: 'Inconsolata', monospace;
 }
 
 .overlay ul li a:hover:after,
@@ -407,7 +409,7 @@ img {
 
 .about_img {
     padding: 1.2em 0;
-    max-width: 800px;
+    /* max-width: 800px; */
 }
 
 /*ABOUT********************************/
@@ -480,13 +482,31 @@ img {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 100px;
-    background-color: #900000;
     padding: 10px;
     border-radius: 3%;
     max-width: 1000px;
-    box-shadow: 0 1em 1.5em 0.25em rgba(0, 0, 0, 0.3);
+    box-shadow: 4px 11px 12px rgba(0, 0, 0, 0.3), 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
+.work--one {
+    background-color: red;
+}
+
+.work--two {
+    background-color: blue;
+}
+
+.work--three {
+    background-color: green;
+}
+
+.work--four {
+    background-color: orange;
+}
+
+.work--five {
+    background-color: pink;
+}
 
 .work_container h4 {
     font-size: 2.5em;
