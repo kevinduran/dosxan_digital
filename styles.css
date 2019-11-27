@@ -479,7 +479,6 @@ img {
 }
 
 .work_container-work {
-    text-align: center;
     margin: 0 auto;
     margin-bottom: 100px;
     padding: 10px;
@@ -518,7 +517,6 @@ img {
     font-size: 1.7em;
     color: #F0F0F0;
     padding: 35px 0;
-    text-align: center;
 }
 
 .work--link a {
