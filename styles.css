@@ -515,19 +515,21 @@ img {
 }
 
 .work_container-sticky {
-    position: absolute;
+    position: relative;
     color: #F0FFF0;
     transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     -o-transform: rotate(90deg);
-    right: -20%;
-    top: 27%;
+
 }
 
 .work_container-sticky p {
     font-size: 19px;
+    right: 65px;
+    top: -130px;
+    position: absolute;
 }
 
 .work--link {
