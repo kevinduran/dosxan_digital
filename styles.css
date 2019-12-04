@@ -513,7 +513,8 @@ img {
     padding: 35px 0;
     color: #F0F0F0;
 }
-.work_container-sticky{
+
+.work_container-sticky {
     position: absolute;
     color: #F0FFF0;
     transform: rotate(90deg);
@@ -521,12 +522,16 @@ img {
     -moz-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     -o-transform: rotate(90deg);
-    right: -12%;
-    top: 22%;
+    right: -20%;
+    top: 27%;
+}
+
+.work_container-sticky p {
+    font-size: 19px;
 }
 
 .work--link {
-    font-size: 1.7em;
+    font-size: 1.5em;
     color: #F0F0F0;
     padding: 35px 0;
 }
