@@ -483,29 +483,29 @@ img {
     margin: 0 auto;
     margin-bottom: 100px;
     padding: 10px;
-    border-radius: 3%;
+    border-radius: 1%;
     max-width: 1000px;
     box-shadow: 4px 11px 12px rgba(0, 0, 0, 0.3), 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 .work--one {
-    background-color: red;
+    background-color: #778899;
 }
 
 .work--two {
-    background-color: blue;
+    background-color: #adb7c1;
 }
 
 .work--three {
-    background-color: green;
+    background-color: #929fad;
 }
 
 .work--four {
-    background-color: orange;
+    background-color: #546270;
 }
 
 .work--five {
-    background-color: pink;
+    background-color: #778899;
 }
 
 .work_container h4 {
@@ -514,7 +514,7 @@ img {
     color: #F0F0F0;
 }
 
-.work_container-sticky  p{
+.work_container-sticky p {
     position: absolute;
     color: #F0FFF0;
     transform: rotate(90deg);
@@ -522,7 +522,7 @@ img {
     -moz-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     -o-transform: rotate(90deg);
-    right: -65px;
+    right: -55px;
     top: 125px;
 }
 
