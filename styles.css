@@ -479,6 +479,7 @@ img {
 }
 
 .work_container-work {
+    height: 460px;
     position: relative;
     margin: 0 auto;
     margin-bottom: 100px;
@@ -532,11 +533,20 @@ img {
     font-size: 1.5em;
     color: #F0F0F0;
     padding: 35px 0;
+    top: 50%;
+    position: relative;
 }
 
 .work--link a {
     color: #F0F0F0;
+}
 
+.img_size-main {
+    max-width: 150%;
+    position: absolute;
+    width: 420px !important;
+    top: 16%;
+    left: -17%;
 }
 
 /*WORK********************************/
@@ -920,7 +930,7 @@ input:focus {
         padding: 10px;
     }
 
-    .img_desc {
+    d .img_desc {
         display: block;
         flex: 2;
         color: #F0F0F0;
