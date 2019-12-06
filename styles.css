@@ -547,6 +547,9 @@ img {
     width: 420px !important;
     top: 16%;
     left: -17%;
+    border: 1px solid #900000;
+    transition: all ease 1s;
+
 }
 
 /*WORK********************************/
@@ -772,12 +775,32 @@ input:focus {
 
 
 
+@media only screen and (min-width: 375px) {
+    .img_size-main {
+        width: 420px !important;
+        top: 15%;
+        left: -10%;
+    }
+}
 
+@media only screen and (min-width: 420px) {
+    .img_size-main {
+        width: 420px !important;
+        top: 15%;
+        left: 8%;
+    }
+}
 
 
 @media only screen and (min-width: 550px) {
     .client-image {
         max-width: 150px;
+    }
+
+    .img_size-main {
+        width: 420px !important;
+        top: 16%;
+        left: 10%;
     }
 }
 
@@ -815,6 +838,20 @@ input:focus {
     .intro--header {
         font-size: 3.7em;
         transition: 1s ease all;
+    }
+
+    .img_size-main {
+        width: 420px !important;
+        top: 16%;
+        left: 20%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .img_size-main {
+        width: 700px !important;
+        top: -18%;
+        left: 6%;
     }
 }
 
