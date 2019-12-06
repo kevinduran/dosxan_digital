@@ -850,7 +850,7 @@ input:focus {
     .img_size-main {
         width: 700px !important;
         top: -18%;
-        left: 6%;
+        left: 16%;
     }
 }
 
@@ -966,12 +966,23 @@ input:focus {
         padding: 10px;
     }
 
+    .img_size-main {
+        left: 35%;
+    }
+
+    .work--link {
+        top: 110px;
+    }
+
     .img_desc {
+        margin-top: 20px;
         display: block;
-        flex: 2;
-        color: #F0F0F0;
+        position: relative;
+        left: -20%;
+        color: #F0F0EF;
         padding: 10px;
-        line-height: 3em;
+        width: 50%;
+        line-height: 2.1em;
         font-size: 1.2em;
     }
 
