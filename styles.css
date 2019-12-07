@@ -872,7 +872,12 @@ input:focus {
     .about_img-one {
         margin-top: 200px;
     }
-    .wwdo{
+
+    .wwdo {
+        margin-top: 100px;
+    }
+
+    .work {
         margin-top: 100px;
     }
 }
