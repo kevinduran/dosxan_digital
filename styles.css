@@ -1087,4 +1087,8 @@ input:focus {
     .index_intro {
         margin: 100px 0;
     }
+
+    .work {
+        margin-top: 200px;
+    }
 }
