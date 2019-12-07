@@ -868,7 +868,8 @@ input:focus {
     .about_img {
         max-width: 60%;
     }
-    .about_img-one{
+
+    .about_img-one {
         margin-top: 200px;
     }
 }
@@ -960,6 +961,7 @@ input:focus {
     .index_intro {
         display: flex;
         padding: 90px;
+        margin-top: 100px;
     }
 
     .intro--desc {
@@ -1070,4 +1072,10 @@ input:focus {
 
 
 
+}
+
+@media only screen and (min-width: 1250px) {
+    .index_intro {
+        margin-top: 150px;
+    }
 }
