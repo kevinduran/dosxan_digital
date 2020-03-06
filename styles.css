@@ -542,11 +542,11 @@ img {
 }
 
 .img_size-main {
-    max-width: 100%;
+    max-width: 300%;
     position: absolute;
-    width: 130px !important;
-    top: 21%;
-    left: 29%;
+    width: 400px !important;
+    top: 20%;
+    left: -13%;
     transition: all ease 1s;
 
 }
@@ -783,7 +783,7 @@ input:focus {
     .about_img {
         max-width: 300px;
     }
- 
+
 }
 
 @media only screen and (min-width: 420px) {
@@ -808,7 +808,8 @@ input:focus {
         left: 37%;
         width: 190px !important;
     }
-    .sticky_logo h4{
+
+    .sticky_logo h4 {
         transition: 1s ease all;
         margin-top: 250px;
     }
