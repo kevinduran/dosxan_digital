@@ -1,8 +1,8 @@
-//Work section reveal
-ScrollReveal().reveal('.reveal_me', {
-  delay: 300
-});
-//End of Work section reveal
+//  //Work section reveal
+//  ScrollReveal().reveal('.reveal_me', {
+//    delay: 300
+//  });
+//  //End of Work section reveal
 
 //Sticky Nav color change
 $(function () {
@@ -29,3 +29,9 @@ $('#toggle').click(function () {
   $('.site_logo_a').toggleClass('open');
 });
 //End of Navigarion Overlay
+
+
+
+AOS.init({
+  duration: 1200,
+})
