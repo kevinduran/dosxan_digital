@@ -1,5 +1,3 @@
-
-
 /*RESET********************************/
 html {
     -webkit-box-sizing: border-box;
@@ -49,11 +47,14 @@ img {
     height: auto;
 }
 
+
+
 /*RESET********************************/
 
 .site {
     position: relative;
 }
+
 
 /*NAVIGATION********************************/
 .nav {
