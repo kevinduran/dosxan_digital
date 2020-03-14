@@ -545,7 +545,7 @@ img {
     position: absolute;
     width: 400px !important;
     top: 20%;
-    left: -13%;
+
     transition: all ease 1s;
 
 }
@@ -783,12 +783,15 @@ input:focus {
         max-width: 300px;
     }
 
+    .img_size-main {
+        left: -15%;
+        top: 14%;
+    }
+
+
 }
 
 @media only screen and (min-width: 420px) {
-    .img_size-main {
-        left: 33%;
-    }
 
     .about_img {
         max-width: 90%;
@@ -804,8 +807,8 @@ input:focus {
 
     .img_size-main {
         top: 10%;
-        left: 37%;
-        width: 190px !important;
+        left: 12%;
+        width: 500px !important;
     }
 
     .sticky_logo h4 {
@@ -855,8 +858,9 @@ input:focus {
 
 @media only screen and (min-width: 800px) {
     .img_size-main {
-        width: 230px !important;
+        width: 530px !important;
         top: -12%;
+        left: 19%;
     }
 
     .about_img {
