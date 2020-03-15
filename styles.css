@@ -10,6 +10,7 @@ html {
 *:after {
     -webkit-box-sizing: inherit;
     box-sizing: inherit;
+    border: 1px solid blue;
 }
 
 body {
@@ -469,7 +470,7 @@ img {
 
 .work h4 {
     font-size: 1.3em;
-    padding: 105px 35px 35px;
+    padding: 90px 35px 75px;
 }
 
 
@@ -901,8 +902,16 @@ input:focus {
 
     .site_nav_item a {
         color: black;
-        padding: 0 35px;
+        padding: 0 40px;
+        transition: all ease 0.5s;
     }
+
+    .site_nav_item a:hover {
+        padding-bottom: 10px;
+        border-bottom: 3px solid #900000;
+    }
+
+
 
     .site_nav_item a.scrolled {
         color: white;
