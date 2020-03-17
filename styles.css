@@ -894,6 +894,16 @@ input:focus {
 
     .site_logo {
         padding: 35px;
+
+    }
+
+    .site_logo a {
+        transition: all 0.7s ease;
+    }
+
+    .site_logo a:hover {
+        color: #900000;
+
     }
 
     .btn {
@@ -913,6 +923,7 @@ input:focus {
 
     .site_nav_item a:hover {
         padding-bottom: 10px;
+        color: #900000;
         border-bottom: 3px solid #900000;
     }
 
@@ -939,6 +950,13 @@ input:focus {
         animation-delay: 0.7s;
         opacity: 0;
         animation-fill-mode: forwards;
+        cursor: pointer;
+        transition: all ease 0.7s;
+    }
+
+    .email_sticky:hover  {
+        background-color: #d5d5d5;
+        color: #900000;
     }
 
     .social_sticky {
@@ -965,12 +983,13 @@ input:focus {
 
     .social_sticky_item a {
         color: black;
-        padding: 5px;    
-        cursor: pointer;  
-        transition: all 0.5s ease;
+        padding: 5px;
+        cursor: pointer;
+        transition: all 0.7s ease;
     }
+
     .social_sticky_item a:hover {
-        color: #900000; 
+        color: #900000;
     }
 
 
