@@ -10,7 +10,7 @@ html {
 *:after {
     -webkit-box-sizing: inherit;
     box-sizing: inherit;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 body {
@@ -148,6 +148,11 @@ img {
 
 .navigation_item.scrolled {
     color: white;
+}
+
+.site_nav_item a:hover.scrolled {
+
+    border-bottom: 2px solid white;
 }
 
 .navigation_item_two.scrolled {
