@@ -153,6 +153,7 @@ img {
 .site_nav_item a:hover.scrolled {
 
     border-bottom: 2px solid white;
+
 }
 
 .navigation_item_two.scrolled {
@@ -389,16 +390,48 @@ img {
 
 }
 
-.intro--link a {
+.work-wiff {
     text-decoration: none;
     color: #900000;
-    font-size: 1.3em
+    font-size: 1.3em;
+    transition: 0.3s ease all;
+    padding: 20px;
 }
 
-.intro--link i {
-    color: #900000;
-    font-size: 1.3em;
-    padding-right: 15px;
+
+
+
+.work-wiff::after {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.work-wiff::before,
+.work-wiff::after {
+    background: rgba(144, 0, 0, 0.9);
+    content: '';
+    position: absolute;
+    z-index: -1;
+    border-radius: 4%;
+}
+
+.work-wiff:hover {
+    color: #F0F0EF;
+}
+
+
+.work-wiff::after {
+    height: 11%;
+    left: 35px;
+    top: 1;
+    width: 0;
+}
+
+.work-wiff:hover:after {
+    width: 290px;
+
 }
 
 
@@ -954,9 +987,7 @@ input:focus {
         transition: all ease 0.7s;
     }
 
-    .email_sticky {
-        color: #F0FFF0;
-    }
+
 
 
 
