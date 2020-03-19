@@ -954,7 +954,13 @@ input:focus {
         transition: all ease 0.7s;
     }
 
-    .email_sticky:hover  {
+    .email_sticky {
+        color: #F0FFF0;
+    }
+
+
+
+    .email_sticky:hover {
         background-color: #d5d5d5;
         color: #900000;
     }
