@@ -390,6 +390,7 @@ img {
 
 }
 
+
 .work-wiff {
     text-decoration: none;
     color: #900000;
@@ -397,9 +398,6 @@ img {
     transition: 0.3s ease all;
     padding: 20px;
 }
-
-
-
 
 .work-wiff::after {
     -webkit-transition: all 0.3s;
@@ -421,7 +419,6 @@ img {
     color: #F0F0EF;
 }
 
-
 .work-wiff::after {
     height: 11%;
     left: 35px;
@@ -433,9 +430,6 @@ img {
     width: 290px;
 
 }
-
-
-
 
 /*INTRO********************************/
 
