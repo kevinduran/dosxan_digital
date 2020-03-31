@@ -578,9 +578,11 @@ img {
     position: absolute;
     width: 400px !important;
     top: 20%;
-
     transition: all ease 1s;
+}
 
+.img_size {
+    transition: all 1s ease !important;
 }
 
 /*WORK********************************/
@@ -1074,6 +1076,8 @@ input:focus {
     .img_size-main {
         left: 47%;
         width: 560px !important;
+        transition: all 1s ease;
+
     }
 
 
