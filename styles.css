@@ -700,6 +700,11 @@ img {
 
 .connect_menu--item a {
     color: #989898;
+    transition: all 0.5s ease;
+}
+
+.connect_menu--item a:hover {
+    color: #900000;
 }
 
 .connect_location--office--item {
