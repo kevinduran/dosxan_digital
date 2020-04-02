@@ -10,7 +10,6 @@ html {
 *:after {
     -webkit-box-sizing: inherit;
     box-sizing: inherit;
-    /* border: 1px solid blue; */
 }
 
 body {
@@ -368,6 +367,7 @@ img {
 
 .intro--header-word-color {
     color: #900000;
+    transition: all ease 0.5s;
 }
 
 .intro--header-word-color a {
@@ -557,6 +557,7 @@ img {
     width: 400px !important;
     top: 20%;
     transition: all ease 1s;
+    overflow: hidden;
 }
 
 .img_size {
@@ -804,6 +805,7 @@ input:focus {
 
     .img_size-main {
         left: -15%;
+
         top: 14%;
     }
 
