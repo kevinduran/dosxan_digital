@@ -477,7 +477,8 @@ img {
 }
 
 .work h4 {
-    font-size: 1.3em;
+    font-size: 1.5em;
+    text-transform: uppercase;
     padding: 90px 35px 75px;
 }
 
@@ -573,7 +574,8 @@ img {
 }
 
 .wwdo_container_title {
-    font-size: 1.3em;
+    font-size: 1.5em;
+    text-transform: uppercase;
     padding: 105px 0;
 }
 
@@ -642,7 +644,7 @@ img {
 
 .connect_header--title {
     font-size: 3em;
-    padding: 85px 0 0;
+    padding: 85px 0 0 35px;
     line-height: 1.4em;
     font-weight: bolder;
 
@@ -662,7 +664,7 @@ img {
 .connect_header--link i {
     color: #900000;
     font-size: 3em;
-    padding: 35px 0 85px 0;
+    padding: 35px 0 85px 35px;
 }
 
 
@@ -888,9 +890,9 @@ input:focus {
         margin-top: 200px;
     }
 
-    .wwdo {
+    /* .wwdo {
         margin-top: 100px;
-    }
+    } */
 
     .work {
         margin-top: 100px;
