@@ -40,7 +40,7 @@ AOS.init({
 var text = ["create", "develop", "build"];
 var counter = 0;
 var elem = document.getElementById("changeText");
-var inst = setInterval(change, 1000);
+var inst = setInterval(change, 2000);
 
 function change() {
   elem.innerHTML = text[counter];
