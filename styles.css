@@ -164,6 +164,7 @@ img {
     font-size: 2em;
     z-index: 20;
     font-family: 'Unica One', cursive;
+    transition: ease 0.1s all;
 }
 
 
@@ -367,7 +368,7 @@ img {
 
 .intro--header-word-color {
     color: #900000;
-    transition: all ease 0.5s;
+    transition: all ease 0.1s;
 }
 
 .intro--header-word-color a {
@@ -392,7 +393,7 @@ img {
 .work-wiff {
     font-size: 1.3em;
     color: #111;
-    transition: all 0.5s ease;
+    transition: all 0.1s ease;
     text-transform: uppercase;
     letter-spacing: 1.3px;
 }
