@@ -791,24 +791,74 @@ input:focus {
 
 
 
-
-@media only screen and (max-width: 375px) {
-    .about_img {
-        max-width: 300px;
+@media only screen and (min-width:350px) {
+    .img_size-main {
+        left: -15%;
     }
 
-}
 
-@media only screen and (min-width: 375px) {
+    .project-desc_sticky {
+        top: 31%;
+        transition: ease all 0.3s;
+
+    }
+}
+@media only screen and (max-width:360px){
+    .img_size-main {
+        max-width: 135% !important;
+        left: -17% !important;
+       
+    }
+}
+@media only screen and (min-width: 360px) {
     .about_img {
         max-width: 300px;
     }
 
     .img_size-main {
         left: -15%;
-
         top: 14%;
     }
+
+
+
+}
+
+@media only screen and (min-width: 375px) {
+  
+
+    .img_size-main {
+        left: -15%;
+        top: 14%;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 390px) {
+  
+
+    .project-desc_sticky {
+        top: 31% !important;
+        transition: ease all 0.3s;
+    }
+    .work_title{
+        font-size: 1.9em !important;
+    }
+
+}
+
+@media only screen and (min-width: 390px) {
+    .about_img {
+        max-width: 300px;
+    }
+
+    .img_size-main {
+        left: -10%;
+        top: 14%;
+    }
+
 
 
 }
@@ -821,6 +871,17 @@ input:focus {
 
 }
 
+@media only screen and (min-width:450px) {
+    .img_size-main {
+        left: 5%;
+    }
+}
+
+@media only screen and (min-width:500px) {
+    .img_size-main {
+        left: 7%;
+    }
+}
 
 @media only screen and (min-width: 550px) {
     .client-image {
@@ -829,7 +890,7 @@ input:focus {
 
     .img_size-main {
         top: 10%;
-        left: 12%;
+        left: 11%;
         width: 500px !important;
     }
 
@@ -838,6 +899,7 @@ input:focus {
         margin-top: 250px;
     }
 }
+
 
 @media only screen and (min-width:700px) {
     .nav {
@@ -876,11 +938,18 @@ input:focus {
     }
 
 
+
+}
+
+@media only screen and (max-width:800px) {
+    .work-wiff {
+        font-size: 1.1em;
+    }
 }
 
 @media only screen and (min-width: 800px) {
     .img_size-main {
-        width: 530px !important;
+        width: 630px !important;
         top: -12%;
         left: 19%;
     }
