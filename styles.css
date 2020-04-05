@@ -761,9 +761,12 @@ img {
 
 
 .contact_form-submit button:hover {
-    background-color: #D00000;
-    transition: 1s all ease;
+    background-color: #F0F0EF;
+    border: 3px solid #900000;
+    transition: 0.5s all ease;
+    color: #900000;
 }
+
 
 input {
     background-color: transparent;
