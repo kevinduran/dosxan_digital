@@ -739,7 +739,7 @@ img {
     animation-delay: 1.3s;
     opacity: 0;
     animation-fill-mode: forwards;
-    z-index: 200;
+    z-index: 2;
 }
 
 .contact_form-submit {
