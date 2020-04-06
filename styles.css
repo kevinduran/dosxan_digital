@@ -739,6 +739,7 @@ img {
     animation-delay: 1.3s;
     opacity: 0;
     animation-fill-mode: forwards;
+    z-index: 200;
 }
 
 .contact_form-submit {
@@ -806,13 +807,15 @@ input:focus {
 
     }
 }
-@media only screen and (max-width:360px){
+
+@media only screen and (max-width:360px) {
     .img_size-main {
         max-width: 135% !important;
         left: -17% !important;
-       
+
     }
 }
+
 @media only screen and (min-width: 360px) {
     .about_img {
         max-width: 300px;
@@ -828,7 +831,7 @@ input:focus {
 }
 
 @media only screen and (min-width: 375px) {
-  
+
 
     .img_size-main {
         left: -15%;
@@ -840,13 +843,14 @@ input:focus {
 }
 
 @media only screen and (max-width: 390px) {
-  
+
 
     .project-desc_sticky {
         top: 31% !important;
         transition: ease all 0.3s;
     }
-    .work_title{
+
+    .work_title {
         font-size: 1.9em !important;
     }
 
