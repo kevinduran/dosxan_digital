@@ -170,6 +170,11 @@ img {
 
 .site_logo a {
     color: black;
+    transition: all ease 0.3s;
+}
+
+.site_logo a:hover {
+    color: #900000;
 }
 
 .site_logo a.open {
@@ -798,8 +803,15 @@ input:focus {
 
 
 
+@media only screen and (min-width:300px) {
+    .overlay .overlay_nav {
+        font-size: 25px;
+    }
+
+}
 
 @media only screen and (min-width:350px) {
+
     .img_size-main {
         left: -15%;
     }
