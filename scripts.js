@@ -1,9 +1,3 @@
-//  //Work section reveal
-//  ScrollReveal().reveal('.reveal_me', {
-//    delay: 300
-//  });
-//  //End of Work section reveal
-
 //Sticky Nav color change
 $(function () {
   $(document).scroll(function () {
@@ -19,7 +13,6 @@ $(function () {
     $navItemThree.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
   });
 });
-
 //End of Sticky Nav color change
 
 //Navigation Overlay
@@ -31,22 +24,24 @@ $('#toggle').click(function () {
 //End of Navigarion Overlay
 
 
-
+//Initiate AOS
 AOS.init({
   duration: 1200,
-})
+});
+// End of Initiate AOS
 
 
-var text = ["create", "develop", "build","shape"];
+// Header word loop
+var text = ["create", "develop", "build", "shape"];
 var counter = 0;
 var elem = document.getElementById("changeText");
-var inst = setInterval(change, 2000);
+var init = setInterval(change, 2000);
 
 function change() {
   elem.innerHTML = text[counter];
   counter++;
   if (counter >= text.length) {
     counter = 0;
-    // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
   }
 }
+//End of Header word loop
