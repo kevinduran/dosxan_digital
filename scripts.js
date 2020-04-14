@@ -45,3 +45,22 @@ function change() {
   }
 }
 //End of Header word loop
+
+
+//Form Validation
+let submit_button = document.querySelector('.btn-submit');
+let number_one = document.getElementById('help');
+let number_two = document.getElementById('company_name');
+let number_three = document.getElementById('company_url');
+let number_four = document.getElementById('name');
+let number_five = document.getElementById('email');
+let number_six = document.getElementById('share');
+submit_button.addEventListener('click', submitForm);
+
+function submitForm(e) {
+  e.preventDefault();
+  if (number_one.value === '' || null) {
+    number_one.classList.add('error-message');
+  }
+}
+// End of Form Validation

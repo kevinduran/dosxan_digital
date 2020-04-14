@@ -794,6 +794,10 @@ input:focus {
     outline: none;
 }
 
+.error-message {
+    border: red 2px solid;
+}
+
 /*CONNECT********************************/
 
 
