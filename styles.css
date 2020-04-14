@@ -738,6 +738,7 @@ img {
     padding: 35px;
     letter-spacing: 0.05em;
     font-size: 1.3em;
+    position: relative;
 }
 
 
@@ -756,6 +757,14 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#warning-triangle {
+    color: red;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+
 }
 
 .contact_form-submit button {
