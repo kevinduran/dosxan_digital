@@ -48,6 +48,7 @@ function change() {
 
 
 //Form Validation
+
 let submit_button = document.querySelector('.btn-submit');
 let number_one = document.getElementById('help');
 let number_two = document.getElementById('company_name');
@@ -58,6 +59,7 @@ let number_six = document.getElementById('share');
 submit_button.addEventListener('click', submitForm);
 
 function submitForm(e) {
+  number_one.classList.remove('error-message')
   e.preventDefault();
   if (number_one.value === '' || null) {
     number_one.classList.add('error-message');
