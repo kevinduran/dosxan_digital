@@ -56,13 +56,14 @@ let number_three = document.getElementById('company_url');
 let number_four = document.getElementById('name');
 let number_five = document.getElementById('email');
 let number_six = document.getElementById('share');
+let skeleton_key = document.getElementsByClassName('contact_input');
 submit_button.addEventListener('click', submitForm);
 
 function submitForm(e) {
-  number_one.classList.remove('error-message')
   e.preventDefault();
-  if (number_one.value === '' || null) {
-    number_one.classList.add('error-message');
-  }
+  skeleton_key.classList.remove('error-message')
+  if (skeleton_key.value === '' || null) {
+  skeleton_key.classList.add('error-message');
+}
 }
 // End of Form Validation
