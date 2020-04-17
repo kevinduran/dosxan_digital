@@ -56,14 +56,28 @@ let number_three = document.getElementById('company_url');
 let number_four = document.getElementById('name');
 let number_five = document.getElementById('email');
 let number_six = document.getElementById('share');
-let skeleton_key = document.getElementsByClassName('contact_input');
+
+let warning_triangle = document.getElementById('warning-triangle');
+let error_text = document.querySelector('.error-text');
+
+
 submit_button.addEventListener('click', submitForm);
 
 function submitForm(e) {
   e.preventDefault();
-  skeleton_key.classList.remove('error-message')
-  if (skeleton_key.value === '' || null) {
-  skeleton_key.classList.add('error-message');
-}
+  number_one.classList.remove('error-border');
+  warning_triangle.classList.remove('warning-triangle-visible');
+  error_text.classList.remove('error-text-visible');
+  if (number_one.value === '') {
+    number_one.classList.add('error-border');
+    warning_triangle.classList.add('warning-triangle-visible');
+    error_text.classList.add('error-text-visible')
+  }
 }
 // End of Form Validation
+
+// loop through every input field
+//if input is blank
+//give input a border
+//make the hiden triangle vissible
+//make error message vissible

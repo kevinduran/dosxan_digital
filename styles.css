@@ -763,9 +763,48 @@ img {
     color: red;
     position: absolute;
     right: 10%;
-    top: 50%;
+    top: 48%;
+    visibility: hidden;
 
 }
+
+#warning-triangle--a {
+    color: red;
+    position: absolute;
+    right: 10%;
+    top: 34%;
+    visibility: hidden;
+
+}
+
+#warning-triangle--b {
+    color: red;
+    position: absolute;
+    right: 10%;
+    top: 69%;
+    visibility: hidden;
+
+}
+
+.warning-triangle-visible {
+    visibility: visible !important;
+}
+
+.error-text {
+    font-size: 0.9em;
+    color: red;
+    padding: 0 0 0 5px;
+    visibility: hidden;
+}
+
+.error-text-visible {
+    visibility: visible !important;
+}
+
+.error-border {
+    border: red 2px solid;
+}
+
 
 .contact_form-submit button {
     border-radius: 5%;
@@ -796,15 +835,15 @@ input {
     cursor: text;
     font-size: 0.9em;
     padding: 35px 0 15px 15px;
-    transition: 0.5s ease all;
+    transition: 0.2s ease all;
 }
 
 input:focus {
     outline: none;
 }
 
-.error-message {
-    border: red 2px solid;
+.contact_input {
+    margin: 10px 0;
 }
 
 /*CONNECT********************************/
