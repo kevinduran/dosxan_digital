@@ -772,7 +772,7 @@ img {
     color: red;
     position: absolute;
     right: 10%;
-    top: 34%;
+    top: 30%;
     visibility: hidden;
 
 }
@@ -781,7 +781,31 @@ img {
     color: red;
     position: absolute;
     right: 10%;
-    top: 69%;
+    top: 67%;
+    visibility: hidden;
+
+}
+#warning-triangle--c {
+    color: red;
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    visibility: hidden;
+
+}
+#warning-triangle--d {
+    color: red;
+    position: absolute;
+    right: 10%;
+    top: 67%;
+    visibility: hidden;
+
+}
+#warning-triangle--e {
+    color: red;
+    position: absolute;
+    right: 10%;
+    top: 48%;
     visibility: hidden;
 
 }
@@ -791,6 +815,38 @@ img {
 }
 
 .error-text {
+    font-size: 0.9em;
+    color: red;
+    padding: 0 0 0 5px;
+    visibility: hidden;
+}
+
+.error-text--a {
+    font-size: 0.9em;
+    color: red;
+    padding: 0 0 0 5px;
+    visibility: hidden;
+}
+
+.error-text--b {
+    font-size: 0.9em;
+    color: red;
+    padding: 0 0 0 5px;
+    visibility: hidden;
+}
+.error-text--c {
+    font-size: 0.9em;
+    color: red;
+    padding: 0 0 0 5px;
+    visibility: hidden;
+}
+.error-text--d {
+    font-size: 0.9em;
+    color: red;
+    padding: 0 0 0 5px;
+    visibility: hidden;
+}
+.error-text--e {
     font-size: 0.9em;
     color: red;
     padding: 0 0 0 5px;
