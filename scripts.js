@@ -35,7 +35,7 @@ AOS.init({
 var text = ["create", "develop", "build", "shape"];
 var counter = 0;
 var elem = document.getElementById("changeText");
-var init = setInterval(change, 2000);
+var init = setInterval(change, 1500);
 
 function change() {
   elem.innerHTML = text[counter];
