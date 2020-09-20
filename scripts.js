@@ -138,13 +138,25 @@ function submitForm(e) {
 }
 // End of Form Validation
 
-// loop through every input field
-//if input is blank
-//give input a border
-//make the hiden triangle vissible
-//make error message vissible
+//Carousal
 
-/*--
-small todo:
-  - rename variables to make working with contact easier 
---*/
+const container_carousal_img = document.getElementById('imgs');
+const carousal_img = document.querySelectorAll('#imgs img');
+let idx = 0;
+
+function carousal() {
+  idx ++;
+
+  if(idk > carousal_img.length - 1) {
+    idx = 0;
+  }
+
+  container_carousal_img.style.transform = `translateX(${-idx * 700}px)`;
+
+
+
+}
+
+setInterval(carousal, 2000);
+
+//End of Carousal
