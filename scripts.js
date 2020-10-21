@@ -138,25 +138,3 @@ function submitForm(e) {
 }
 // End of Form Validation
 
-//Carousal
-
-const container_carousal_img = document.getElementById('imgs');
-const carousal_img = document.querySelectorAll('#imgs img');
-let idx = 0;
-
-function carousal() {
-  idx ++;
-
-  if(idk > carousal_img.length - 1) {
-    idx = 0;
-  }
-
-  container_carousal_img.style.transform = `translateX(${-idx * 700}px)`;
-
-
-
-}
-
-setInterval(carousal, 2000);
-
-//End of Carousal
