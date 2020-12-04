@@ -39,12 +39,15 @@ var header_word = document.querySelector('.intro--header-word-fill')
 
 
 function change() {
-  elem.innerHTML = text[counter];
-  counter++;
-  setInterval(function(){header_word.style.height = "100%"}, 1000);
-  if (counter >= text.length) {
-    counter = 0;
-  }
+  setInterval(function(){
+    header_word.style.height = "100%";
+    elem.innerHTML = text[counter];
+    counter++;
+    
+    if (counter >= text.length) {
+      counter = 0;
+    }
+  }, 1000);
   setInterval(function(){header_word.style.height = "0"}, 2000);
 }
 change();
