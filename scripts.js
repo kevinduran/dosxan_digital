@@ -37,22 +37,18 @@ var counter = 0;
 var elem = document.getElementById("changeText");
 var header_word = document.querySelector('.intro--header-word-fill')
 
-setInterval(colorDown, 1000);
-setInterval(change, 2000);
-setInterval(colorUp, 2000);
+
 function change() {
   elem.innerHTML = text[counter];
   counter++;
+  setInterval(function(){header_word.style.height = "100%"}, 1000);
   if (counter >= text.length) {
     counter = 0;
   }
+  setInterval(function(){header_word.style.height = "0"}, 2000);
 }
-function colorDown() {
- header_word.style.height="100%"
-}
-function colorUp() {
-  header_word.style.height="0"
- }
+change();
+
 //End of Header word loop
 
 
