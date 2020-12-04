@@ -37,21 +37,22 @@ var counter = 0;
 var elem = document.getElementById("changeText");
 var header_word = document.querySelector('.intro--header-word-fill')
 
-
+setInterval(change, 2000);
+setInterval(colorDown, 1000);
+setInterval(colorUp, 2000);
 function change() {
-  setInterval(function(){
-    header_word.style.height = "100%";
-    elem.innerHTML = text[counter];
-    counter++;
-    
-    if (counter >= text.length) {
-      counter = 0;
-    }
-  }, 1000);
-  setInterval(function(){header_word.style.height = "0"}, 2000);
+  elem.innerHTML = text[counter];
+  counter++;
+  if (counter >= text.length) {
+    counter = 0;
+  }
 }
-change();
-
+function colorDown() {
+ header_word.style.height="100%"
+}
+function colorUp() {
+  header_word.style.height="0"
+ }
 //End of Header word loop
 
 
