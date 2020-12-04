@@ -38,7 +38,7 @@ var elem = document.getElementById("changeText");
 var header_word = document.querySelector('.intro--header-word-fill')
 
 setInterval(change, 4000);
-setInterval(colorToggle,2000)
+setInterval(fillToggle,2000)
 function change() {
   elem.innerHTML = text[counter];
   counter++;
@@ -46,7 +46,7 @@ function change() {
     counter = 0;
   }
 }
-function colorToggle() {
+function fillToggle() {
  header_word.style.height=header_word.style.height=="100%" ? "0": "100%"
 }
 
