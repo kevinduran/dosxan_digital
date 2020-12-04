@@ -37,9 +37,8 @@ var counter = 0;
 var elem = document.getElementById("changeText");
 var header_word = document.querySelector('.intro--header-word-fill')
 
-setInterval(change, 2000);
-setInterval(colorDown, 1000);
-setInterval(colorUp, 2000);
+setInterval(change, 1000);
+setInterval(colorToggle,2000)
 function change() {
   elem.innerHTML = text[counter];
   counter++;
@@ -47,12 +46,10 @@ function change() {
     counter = 0;
   }
 }
-function colorDown() {
- header_word.style.height="100%"
+function colorToggle() {
+ header_word.style.height=header_word.style.height=="100%" ? "0": "100%"
 }
-function colorUp() {
-  header_word.style.height="0"
- }
+
 //End of Header word loop
 
 
