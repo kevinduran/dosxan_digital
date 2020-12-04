@@ -26,7 +26,7 @@ $('#toggle').click(function () {
 
 //Initiate AOS
 AOS.init({
-  duration: 1200,
+  duration: 1000,
 });
 // End of Initiate AOS
 

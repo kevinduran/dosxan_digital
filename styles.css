@@ -10,6 +10,7 @@ html {
 *:after {
     -webkit-box-sizing: inherit;
     box-sizing: inherit;
+    border: 1px solid green;
 }
 
 body {
@@ -1106,13 +1107,7 @@ input:focus {
         margin-top: 200px;
     }
 
-    /* .wwdo {
-        margin-top: 100px;
-    } */
-
-    .work {
-        margin-top: 100px;
-    }
+   
 }
 
 @media only screen and (min-width: 1100px) {
@@ -1266,11 +1261,7 @@ input:focus {
 
     }
 
-    /* .img_size {
-        width: 450px;
-        flex: 2;
-        padding: 10px;
-    } */
+    
 
 
     .img_size-main {
@@ -1366,10 +1357,7 @@ input:focus {
 
 @media only screen and (min-width: 1250px) {
     .index_intro {
-        margin: 100px 0;
+        margin: 100px 0 0 0 ;
     }
 
-    .work {
-        margin-top: 200px;
-    }
 }
