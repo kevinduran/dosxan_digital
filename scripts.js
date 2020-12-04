@@ -35,8 +35,11 @@ AOS.init({
 var text = ["create", "develop", "build", "shape"];
 var counter = 0;
 var elem = document.getElementById("changeText");
-var init = setInterval(change, 1500);
+var header_word = document.querySelector('.intro--header-word-fill')
 
+var init = setInterval(change, 2000);
+var init = setInterval(colorDown, 1000);
+var init = setInterval(colorUp, 2000);
 function change() {
   elem.innerHTML = text[counter];
   counter++;
@@ -44,6 +47,12 @@ function change() {
     counter = 0;
   }
 }
+function colorDown() {
+ header_word.style.height="100%"
+}
+function colorUp() {
+  header_word.style.height="0"
+ }
 //End of Header word loop
 
 
