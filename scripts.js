@@ -36,10 +36,9 @@ var text = ["create", "develop", "build", "shape"];
 var counter = 0;
 var elem = document.getElementById("changeText");
 var header_word = document.querySelector('.intro--header-word-fill')
-
-var init = setInterval(change, 2000);
 var initTwo = setInterval(colorDown, 1000);
-var initThree = setInterval(colorUp, 1500);
+var init = setInterval(change, 2000);
+var initThree = setInterval(colorUp, 2000);
 function change() {
   elem.innerHTML = text[counter];
   counter++;
