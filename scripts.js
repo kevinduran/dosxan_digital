@@ -39,7 +39,7 @@ var header_word = document.querySelector('.intro--header-word-fill')
 
 var init = setInterval(change, 2000);
 var initTwo = setInterval(colorDown, 1000);
-var initThree = setInterval(colorUp, 2000);
+var initThree = setInterval(colorUp, 1500);
 function change() {
   elem.innerHTML = text[counter];
   counter++;
