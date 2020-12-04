@@ -342,8 +342,9 @@ img {
 }
 
 .sticky_logo h4 {
+ 
     position: fixed;
-    margin-top: 190px;
+    top: 40%;
     color: #FFFFFF;
     z-index: -1;
     font-size: 2.2em;
@@ -1038,10 +1039,6 @@ input:focus {
         width: 500px !important;
     }
 
-    .sticky_logo h4 {
-        transition: 1s ease all;
-        margin-top: 250px;
-    }
 }
 
 
