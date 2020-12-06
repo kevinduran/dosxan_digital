@@ -639,14 +639,12 @@ img {
 }
 
 .team_container{
-    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
     width: 88%;
 }
 .team_container > * {
-    border: 1px solid blue;
     display: flex;
     flex:100%;
     height: fit-content;
