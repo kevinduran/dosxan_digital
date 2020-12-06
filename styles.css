@@ -643,9 +643,11 @@ img {
     flex-wrap: wrap;
     margin: 0 auto;
     width: 88%;
+    transition: 1s ease all;
 }
 .team_container > * {
     display: flex;
+    transition: 1s ease all;
     flex:100%;
     height: fit-content;
     margin: 5% 0;
