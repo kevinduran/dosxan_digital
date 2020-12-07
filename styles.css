@@ -648,6 +648,7 @@ img {
     display: flex;
     flex:100%;
     /* height: fit-content; */
+    max-height: 400px; /*attention here*/
     margin: 5% 0;
 }
 
