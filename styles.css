@@ -650,6 +650,7 @@ img {
     /* height: fit-content; */
     max-height: 400px; /*attention here*/
     margin: 5% 0;
+    border:2px solid red;
 }
 
 
