@@ -648,7 +648,7 @@ img {
     display: flex;
     flex:100%;
     /* height: fit-content; */
-    max-height: 300px; /*attention here*/
+    max-height: 260px; /*attention here*/
     margin: 5% 0;
 }
 
