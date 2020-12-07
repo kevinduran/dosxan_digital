@@ -648,9 +648,8 @@ img {
     display: flex;
     flex:100%;
     /* height: fit-content; */
-    max-height: 400px; /*attention here*/
+    max-height: 300px; /*attention here*/
     margin: 5% 0;
-    border:2px solid red;
 }
 
 
