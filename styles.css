@@ -1404,5 +1404,8 @@ input:focus {
     .index_intro {
         margin: 60px 0 0 0 ;
     }
+    .services_desc {
+        margin-bottom: 150px;
+    }
 
 }
