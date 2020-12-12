@@ -1286,6 +1286,7 @@ input:focus {
     .index_intro {
         display: flex;
         padding: 90px;
+        margin-bottom: 80px;
     }
 
     .intro--desc {
@@ -1402,7 +1403,7 @@ input:focus {
 
 @media only screen and (min-width: 1250px) {
     .index_intro {
-        margin: 60px 0 0 0 ;
+        margin: 60px 0;
     }
     .services_desc {
         margin-bottom: 150px;
