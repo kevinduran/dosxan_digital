@@ -1,3 +1,15 @@
+<?php
+
+
+
+
+?>
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -44,7 +56,7 @@
             <span class="site_nav_item"><a class="navigation_item_three" href="about.html">About</a></span>
             <span class="site_nav_item"><a class="navigation_item_three" href="work.html">Our Work</a></span>
             <span class="site_nav_item"><a class="navigation_item_three" href="services.html">Services</a></span>
-            <span class="site_nav_item"><a class="navigation_item_three" href="contact.html">Contact</a></span>
+            <span class="site_nav_item"><a class="navigation_item_three" href="contact.php">Contact</a></span>
         </div>
         <div class="overlay" id="overlay">
             <div class="overlay_nav">
@@ -52,7 +64,7 @@
                     <li><a href="about.html"> <span class="overlay_nav-num">01.</span> about</a></li>
                     <li><a href="work.html"><span class="overlay_nav-num">02.</span> our work</a></li>
                     <li><a href="services.html"><span class="overlay_nav-num">03.</span> services</a></li>
-                    <li><a href="contact.html"><span class="overlay_nav-num">04.</span> contact</a></li>
+                    <li><a href="contact.php"><span class="overlay_nav-num">04.</span> contact</a></li>
                 </ul>
             </div>
         </div>
@@ -136,7 +148,7 @@
         <section class="connect">
             <div class="connect_header">
                 <div class="connect_header--title">
-                    <span class="intro--header-word-color"><a href="contact.html">Connect</a></span>
+                    <span class="intro--header-word-color"><a href="contact.php">Connect</a></span>
                     <span class="intro--header-word-color-second">with us.</span>
                 </div>
                 <div class="connect_header--link">
@@ -149,7 +161,7 @@
                     <span class="connect_menu--item"><a href="about.html">About</a></span>
                     <span class="connect_menu--item"><a href="work.html">Our Work</a></span>
                     <span class="connect_menu--item"><a href="services.html">Services</a></span>
-                    <span class="connect_menu--item"><a href="contact.html">Contact</a></span>
+                    <span class="connect_menu--item"><a href="contact.php">Contact</a></span>
                 </div>
                 <div class="connect_location--office">
                     <p>Office</p>
