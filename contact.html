@@ -78,52 +78,38 @@
     </section>
     <div class="site">
         <section class="intro">
-            <form method="POST" action="send.php">
-                <div class="intro--header services_header">How can we <span class="intro--header-word-color">help</span>
-                    build your dream?</div>
-                <div class="intro--desc services_desc">We want to get to know you! Please fill out this form and we will
-                    be
-                    in touch shortly. </div>
-
+            <div class="intro--header services_header">How can we <span class="intro--header-word-color">help</span>
+                build your dream?</div>
+            <div class="intro--desc services_desc">We want to get to know you! Please fill out this form and we will
+                be
+                in touch shortly. </div>
+                
+                    
+                  
+                <form action="https://formspree.io/f/mwkwwzed" method="POST">
                 <div class="contact_form">
                     <div class="contact_form-item">
                         <h3>1. What can we help you with?</h3>
-                        <label for="help"></label> 
-                        <input class="contact_input" type="text" id="help" name="user_help"
-                            placeholder="I need help with...">
+                        <label>
+                            <input class="contact_input" type="text" id="help" name="message"
+                            placeholder="I need help with..." required>
                             <i id="warning-triangle" class="fas fa-exclamation-triangle"></i>
-                        <p class="error-text">*must be filled out</p>
-
-                    </div>
+                            <p class="error-text">*must be filled out</p>
+                        </label> 
+                    </div>        
                     <div class="contact_form-item">
-                        <h3>2. Tell us about yourself.</h3>
-                        <label for="company_name"></label> <input class="contact_input" type="text" id="company_name"
-                            name="company_name" placeholder="Company Name"><i id="warning-triangle--a"
-                            class="fas fa-exclamation-triangle"></i>
-                        <p class="error-text--a">*must be filled out</p>
-
-                        <label for="company_url"></label> <input class="contact_input" type="text" id="company_url"
-                            name="company_url" placeholder="URL"><i id="warning-triangle--b"
-                            class="fas fa-exclamation-triangle"></i>
-                        <p class="error-text--b">*must be filled out</p>
-
-                    </div>
-                    <div class="contact_form-item">
-                        <h3>3. Let's stay in touch.</h3>
-                        <label for="name"></label> <input class="contact_input" type="text" id="name" name="user_name"
-                            placeholder="Name"><i id="warning-triangle--c" class="fas fa-exclamation-triangle"></i>
-                        <p class="error-text--c">*must be filled out</p>
-                        <label for="email"></label><input class="contact_input" type="text" id="email" name="user_email"
-                            placeholder="Email"><i id="warning-triangle--d" class="fas fa-exclamation-triangle"></i>
-                        <p class="error-text--d">*must be filled out</p>
-                    </div>
-                    <div class="contact_form-item">
-                        <h3>4. How did you hear about us?</h3>
-                        <label for="share"></label> <input class="contact_input" type="text" id="share" name="share"
-                            placeholder="How did you hear about us?"><i id="warning-triangle--e"
-                            class="fas fa-exclamation-triangle"></i>
-                        <p class="error-text--e">*must be filled out</p>
-                    </div>
+                        <h3>2. Let's stay in touch.</h3>
+                        <label>
+                            <input class="contact_input" type="text" id="name" name="user_name"
+                            placeholder="Name" required><i id="warning-triangle--c" class="fas fa-exclamation-triangle"></i>
+                            <p class="error-text--c">*must be filled out</p>
+                        </label> 
+                        <label >
+                            <input class="contact_input" type="text" id="email" name="user_email"
+                            placeholder="Email" required><i id="warning-triangle--d" class="fas fa-exclamation-triangle"></i>
+                            <p class="error-text--d">*must be filled out</p>
+                        </label>
+                    </div>     
                 </div>
                 <div class="contact_form-submit">
                     <button class="btn-submit" type="submit">submit</button>

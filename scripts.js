@@ -57,11 +57,9 @@ function fillToggle() {
 
 let submit_button = document.querySelector('.btn-submit');
 let number_one = document.getElementById('help');
-let number_two = document.getElementById('company_name');
-let number_three = document.getElementById('company_url');
 let number_four = document.getElementById('name');
 let number_five = document.getElementById('email');
-let number_six = document.getElementById('share');
+
 
 let warning_triangle = document.getElementById('warning-triangle');
 let warning_triangle_a = document.getElementById('warning-triangle--a');
@@ -81,21 +79,14 @@ let error_text_e = document.querySelector('.error-text--e');
 submit_button.addEventListener('click', submitForm);
 
 function submitForm(e) {
-  e.preventDefault();
 
 
   number_one.classList.remove('error-border');
   warning_triangle.classList.remove('warning-triangle-visible');
   error_text.classList.remove('error-text-visible');
 
-  number_two.classList.remove('error-border');
-  warning_triangle_a.classList.remove('warning-triangle-visible');
-  error_text_a.classList.remove('error-text-visible');
-
-  number_three.classList.remove('error-border');
-  warning_triangle_b.classList.remove('warning-triangle-visible');
-  error_text_b.classList.remove('error-text-visible');
-
+ 
+  
   number_four.classList.remove('error-border');
   warning_triangle_c.classList.remove('warning-triangle-visible');
   error_text_c.classList.remove('error-text-visible');
@@ -104,27 +95,14 @@ function submitForm(e) {
   warning_triangle_d.classList.remove('warning-triangle-visible');
   error_text_d.classList.remove('error-text-visible');
   
-  number_six.classList.remove('error-border');
-  warning_triangle_e.classList.remove('warning-triangle-visible');
-  error_text_e.classList.remove('error-text-visible');
-
-
 
   if (number_one.value === '') {
     number_one.classList.add('error-border');
     warning_triangle.classList.add('warning-triangle-visible');
     error_text.classList.add('error-text-visible')
   }
-  if (number_two.value === '') {
-    number_two.classList.add('error-border');
-    warning_triangle_a.classList.add('warning-triangle-visible');
-    error_text_a.classList.add('error-text-visible')
-  }
-  if (number_three.value === '') {
-    number_three.classList.add('error-border');
-    warning_triangle_b.classList.add('warning-triangle-visible');
-    error_text_b.classList.add('error-text-visible')
-  }
+  
+  
   if (number_four.value === '') {
     number_four.classList.add('error-border');
     warning_triangle_c.classList.add('warning-triangle-visible');
@@ -135,11 +113,7 @@ function submitForm(e) {
     warning_triangle_d.classList.add('warning-triangle-visible');
     error_text_d.classList.add('error-text-visible')
   }
-  if (number_six.value === '') {
-    number_six.classList.add('error-border');
-    warning_triangle_e.classList.add('warning-triangle-visible');
-    error_text_e.classList.add('error-text-visible')
-  }
+  
 
 }
 // End of Form Validation
